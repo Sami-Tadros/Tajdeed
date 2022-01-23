@@ -1,0 +1,350 @@
+@media (min-width: 320px) and (max-width: 575.98px){ 
+    
+.row {
+
+     margin: 0;
+
+}
+
+.top-footer .logo-footer {
+
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        text-align: center;
+
+}
+
+.contact-section .img-contact-section .content-contact-section h1 {
+    color: white;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+.contact-section .img-contact-section .content-contact-section p {
+    color: white;
+    font-size: 10px;
+    margin-top: 0;
+}
+
+.contact-section .img-contact-section .content-contact-section .btn-contact-section {
+    display: flex;
+    justify-content: center;
+    font-size: 4px;
+}
+
+.contact-section .img-contact-section .content-contact-section .btn-contact-section button.jo {
+    border-radius: 6px 0 0 6px;
+    padding: 5px 25px;
+}
+
+.contact-section .img-contact-section .content-contact-section .btn-contact-section button {
+    background: transparent;
+    color: white;
+    border: 1px solid #FFFFFF;
+    padding: 5px 25px;
+}
+
+.contact-section .img-contact-section .content-contact-section .btn-contact-section button.sa {
+    border-radius: 0 6px 6px 0;
+    padding: 5px 25px;
+}
+
+.contact-section .img-contact-section .content-contact-section button.btn-contact-us {
+    background: white;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 7px;
+    font-size: 7px;
+}
+
+.contact-section .img-contact-section .content-contact-section a img {
+    width: 21%;
+}
+
+.it-services-management-section .it-services-management-sec .img-assest-management {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.it-services-management-section .it-services-management-sec .img-project-management {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.it-services-management-section .it-services-management-sec .img-problem-management {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.it-services-management-section {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background-image: url(../img/Web1921.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 83%;
+    padding-bottom: 45px;
+}
+
+.it-services-management-section .it-services-management-title p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.it-services-management-sec {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding-top: 35px;
+}
+
+.solutions-we-provide-section .solutions-we-provide-sec .list-solutions-we-provide {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 35px 0 0 0;
+}
+
+.solutions-we-provide-section .solutions-we-provide-sec .image-solutions-we-provide img {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.services-section .service-sec .img-bigdata-services {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.services-section .service-sec .img-blockchain-services {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.services-section .service-sec .img-cloud-services {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.services-section .services-we-provide-title {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles .content-values-tjdeed-principles a {
+    line-height: 60px;
+    color: black;
+    text-decoration: underline;
+}
+
+.tjdeed-principles-section {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background: linear-gradient(0deg, #F5F7FA 50%,white 50% );
+}
+
+.tjdeed-principles-section .tjdeed-principles-title {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.carousel-inner .img-content {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    top: 6%;
+    left: 11%;
+    max-width: 100%;
+}
+
+
+.carousel-inner .img-content h1 {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    color: #BD1A8D;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.carousel-inner .img-content h2 {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.carousel-inner .img-content p {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    font-size: 7px;
+    color: black;
+    margin: 0;
+}
+
+.carousel-inner .img-content button {
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+    border: none;
+    font-size: 7px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+    font-size: 5px;
+    margin-bottom: 4px;
+}
+
+.top-header .col-top-header .rss li a {
+    color: #707070;
+    text-decoration: none;
+    border: 1px solid #707070;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    padding: 0 5px;
+    font-size: 7px;
+}
+
+.top-header .col-top-header .rss {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-inline-start: 0;
+}
+
+
+
+/* Start Bottom Header To Mobile Screens */
+
+.bottom-header .col-bottom-header {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: flex;
+}
+
+.bottom-header2 {
+  
+    display: block;
+    text-align: left;
+    
+}
+
+.bottom-header {
+
+  display: none;
+}
+
+input {
+
+  display: none;
+}
+
+.abs {
+
+  position: absolute;
+  top: 53px ;
+  right: 15px;
+ 
+}
+
+.fa-bars {
+
+  font-size: 30px;
+  color: black;
+  transform: scaleX(1.4);
+}
+
+.show-on-click {
+
+display: none;
+}
+
+#burger:checked +  .show-on-click {
+
+  display: block;
+
+
+}
+
+.show-on-click .main-div{
+  
+  color: white;
+  
+}
+
+label {
+
+  font-size: 15px ;
+  display: block;
+  text-align: right;
+  color: black;
+  
+  
+}
+
+.main-div label {
+
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+border-bottom:2px solid gray;
+}
+
+
+
+.bottom-header2 img {
+
+width: 35%;
+padding: 10px 0;
+
+}
+
+/* End Bottom Header To Mobile Screens */
+
+
+
+}
+
+
+  
+  
+

@@ -1,0 +1,1676 @@
+.wrapper {
+
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+
+}
+
+
+
+@font-face {
+    
+    font-family: Gilroy ExtraBold;
+    src: url(../font/Gilroy-ExtraBold.otf);
+
+}
+
+@font-face {
+
+    font-family: Gilroy Light;
+    src: url(../font/Gilroy-Light.otf);
+
+}
+
+body {
+
+    font-family: 'Gilroy Light';
+}
+
+/* Start Header */
+
+
+.top-header
+{
+    width: 100%;
+    height: auto;
+    background-color:#F1F1F1;
+    padding: 11px 0px 0px 0;
+}
+.top-header .col-top-header .rss
+{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.top-header .col-top-header .rss li a
+{
+
+    color: #707070;
+    text-decoration: none;
+    border: 1px solid #707070;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    padding: 0px 9px;
+}
+i.fa.fa-phone {
+    color: #BD1A8D;
+    padding: 0 10px 0 0;
+}
+i.fas.fa-envelope {
+    color: #BD1A8D;
+    padding: 0 10px 0 0;
+}
+i.fas.fa-user {
+    color: #BD1A8D;
+    padding: 0 10px 0 0;
+}
+i.fas.fa-sign-in-alt {
+    color: #BD1A8D;
+    padding: 0 10px 0 0;
+}
+i.fas.fa-code {
+    color: #BD1A8D;
+    padding: 0 10px 0 0;
+}
+
+.top-header .col-top-header .rss li a:hover
+{
+    color: #BD1A8D;
+    font-size: 15px;
+}
+
+.top-header .col-top-header .rss li a.lang-en:last-child{
+
+    border-right: none;
+}
+
+.bottom-header {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding:0;
+}
+
+
+.bottom-header .col-bottom-header 
+{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+}
+.bottom-header .col-bottom-header img
+{
+    width: 20%;
+    height: auto;
+}
+.bottom-header .col-bottom-header .content ul li a 
+{
+    font-size: 17px;
+    padding: 0 12px;
+   color: #757575;
+   text-decoration: none;
+}
+.bottom-header .col-bottom-header .content ul 
+{
+   list-style: none;
+   display: flex;
+   padding-inline-start: 49px;
+}
+.bottom-header .col-bottom-header .content
+{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 20px 0px 0 0px;
+}
+.bottom-header .col-bottom-header .content ul li a:hover
+{
+    color: #BD1A8D;
+    font-size: 16px;
+}
+
+/* End Header */
+
+/* Start Bottom Header To Mobile Screens */
+
+
+.bottom-header2 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    
+    }
+    
+    .bottom-header2 .header-menu {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    }
+    
+    .bottom-header2 {
+    
+      display:none;
+    }
+
+
+/* End Bottom Header To Mobile Screens */
+
+/* Start Slider Section */ 
+
+
+.slider
+{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+.slider .slider-img
+{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+}
+.slider .slider-img img
+{
+ 
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.carousel-inner .img-content
+{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    top: 29%;
+    left: 11%;
+    max-width: 100%;
+}
+.carousel-inner .img-content h1
+{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    color: #BD1A8D;
+    font-size: 35px;
+}
+.carousel-inner .img-content p
+{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+    margin: 0;
+}
+
+
+.carousel-inner .img-content h2
+{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.carousel-inner .img-content button
+{
+    background-color: black;
+    color: white;
+    padding: 11px 57px;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+}
+
+.carousel-inner .img-content button:hover
+{
+   color:#BD1A8D;
+   background-color: transparent;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Slider Section */ 
+
+/* Start Tjdeed Principles Section */
+
+.tjdeed-principles-section {
+
+    width: 100%;
+    max-width: 100%;
+    height: auto; 
+    background: linear-gradient(0deg, #F5F7FA 55%,white 45% );
+
+}
+
+.container-tjdeed-principles {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tjdeed-principles-section .tjdeed-principles-title {
+
+    width: 100%;
+    max-width: 100%;
+    height: auto; 
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 80px;
+
+}
+
+.tjdeed-principles-section .tjdeed-principles-title a img {
+
+    width: 4%;
+
+}
+
+.tjdeed-principles-section .tjdeed-principles-title h1 {
+
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.tjdeed-principles-section .tjdeed-principles-title h1:before {
+    content: "Tjdeed ";
+    text-decoration-line: underline;
+    text-decoration-style: line;
+    text-decoration-color: #B11A85;
+
+}
+
+.tjdeed-principles-section .tjdeed-principles-title span {
+
+    font-size: 16px;
+
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec {
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles {
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles img {
+
+    width: 75%;
+    cursor: zoom-in;
+    transition: 1s;
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles img:hover
+{
+    width: 80%;
+    filter: brightness(0.5);
+}
+
+
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles .content-vision-tjdeed-principles{
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles .content-vision-tjdeed-principles h1{
+
+    color:#B61A88;
+    font-size: 29px;
+    padding-top: 30px;
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles .content-vision-tjdeed-principles p{
+
+    font-size: 17px;
+    margin: 0;
+    color: black;
+
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles .content-vision-tjdeed-principles a{
+
+    line-height: 60px;
+    color: black;
+    text-decoration: underline;
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles .content-vision-tjdeed-principles a:hover{
+
+    color: gray;
+    
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles .content-values-tjdeed-principles{
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles .content-values-tjdeed-principles h1{
+
+    color:#B61A88;
+    font-size: 29px;
+    padding-top: 30px;
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles .content-values-tjdeed-principles p{
+
+    font-size: 17px;
+    margin: 0;
+    color: black;
+
+}
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles .content-values-tjdeed-principles a{
+
+    line-height: 200px;
+    color: black;
+    text-decoration: underline;
+}
+
+
+.tjdeed-principles-section .tjdeed-principles-sec .vision-tjdeed-principles .content-values-tjdeed-principles a:hover{
+
+    color: gray;
+}
+
+/* End Tjdeed Principles Section */
+
+
+/* Start Service Section */
+
+
+.services-section {
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    background-image: url(../img/Web1920.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 83%;
+    
+
+}
+
+.services-section .services-we-provide-title {
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.services-section .services-we-provide-title a img{
+
+    width: 4%;
+  
+}
+
+
+.services-section .services-we-provide-title h1{
+
+    font-weight: bold;
+    margin-top: 40px;
+  
+}
+
+.services-section .services-we-provide-title span {
+
+    font-size: 17px;
+   
+    
+}
+
+.services-section .services-we-provide-title h1:before {
+    content: "Services";
+    text-decoration-line: underline;
+    text-decoration-style: line;
+    text-decoration-color: #B11A85;
+
+}
+
+.services-section .service-sec {
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+
+.container-services-section {
+
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.services-section .service-sec .img-business-it {
+
+    text-align: center;
+
+
+}
+
+.services-section .service-sec .img-business-it img {
+    
+    width: 85%;
+}
+
+.services-section .service-sec .img-business-it  .content-service-section {
+
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+.services-section .service-sec .img-business-it  .content-service-section h4{ 
+
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.services-section .service-sec .img-business-it  .content-service-section h4:hover{
+
+    color: #BD1A8D;
+    font-size: 16px;
+
+}
+
+.services-section .service-sec .img-business-it  .content-service-section p{
+
+    
+    font-size: 16px;
+    margin:0 0 2px;
+
+
+}
+
+.services-section .service-sec .img-business-it  .content-service-section span{
+
+    
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+.services-section .service-sec .img-cloud-services{
+
+    text-align: center;
+
+
+}
+
+.services-section .service-sec .img-cloud-services img {
+    
+    width: 85%;
+}
+
+
+
+
+.services-section .service-sec .img-cloud-services .content-service-section{
+
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+
+.services-section .service-sec .img-cloud-services .content-service-section h4{ 
+
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.services-section .service-sec .img-cloud-services .content-service-section h4:hover{
+
+    color: #BD1A8D;
+    font-size: 16px;
+
+}
+
+.services-section .service-sec .img-cloud-services .content-service-section p{
+
+    
+    font-size: 16px;
+    margin:0 0 2px;
+
+
+}
+
+.services-section .service-sec .img-cloud-services .content-service-section span{
+
+    
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services-section .service-sec .img-blockchain-services {
+
+    text-align: center;
+
+
+}
+
+.services-section .service-sec .img-blockchain-services img {
+    
+    width: 85%;
+}
+.services-section .service-sec .img-blockchain-services .content-service-section{
+
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+
+.services-section .service-sec .img-blockchain-services .content-service-section h4{ 
+
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.services-section .service-sec .img-blockchain-services .content-service-section h4:hover{
+
+    color: #BD1A8D;
+    font-size: 16px;
+
+}
+
+.services-section .service-sec .img-blockchain-services .content-service-section p{
+
+    margin:0 0 2px;
+    font-size: 16px;
+
+}
+
+.services-section .service-sec .img-blockchain-services .content-service-section span{
+
+    
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services-section .service-sec .img-bigdata-services {
+
+    text-align: center;
+
+
+}
+
+.services-section .service-sec .img-bigdata-services img {
+    
+    width: 85%;
+}
+
+
+.services-section .service-sec .img-bigdata-services .content-service-section{
+
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+
+.services-section .service-sec .img-bigdata-services .content-service-section h4{ 
+
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.services-section .service-sec .img-bigdata-services .content-service-section h4:hover{
+
+    color: #BD1A8D;
+    font-size: 16px;
+
+}
+
+.services-section .service-sec .img-bigdata-services .content-service-section p{
+
+    
+    font-size: 16px;
+    margin:0 0 2px;
+
+}
+
+.services-section .service-sec .img-bigdata-services .content-service-section span{
+
+    
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+.services-section .btn-service-section {
+
+    text-align: center;
+    padding-top: 80px; 
+    padding-bottom:70px;
+    
+}
+
+.services-section .btn-service-section button {
+
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 80px 5px;
+}
+
+
+.services-section .btn-service-section button:hover { 
+
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+    
+
+}
+
+/* End Service Section */
+
+/* Start Solutions We Provide Section */
+
+.solutions-we-provide-section {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: #F5F7FA;
+}
+
+.container-solutions-we-provide {
+
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.solutions-we-provide-section .img-arrow-solutions-provide-section {
+
+    text-align: center;
+}
+
+.solutions-we-provide-section .img-arrow-solutions-provide-section a img{
+
+    width: 4%;
+}
+
+
+
+.solutions-we-provide-section .solutions-we-provide-title {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.solutions-we-provide-section .solutions-we-provide-title h1 {
+
+    font-weight: bold;
+
+}
+
+
+.solutions-we-provide-section .solutions-we-provide-title h1::before {
+    
+    content: "Solutio";
+    text-decoration-line: underline;
+    text-decoration-style: line;
+    text-decoration-color: #B11A85;
+
+}
+
+.solutions-we-provide-section .solutions-we-provide-title span {
+    font-size: 16px;
+}
+
+
+.solutions-we-provide-section .solutions-we-provide-sec .image-solutions-we-provide {
+   
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+
+}
+
+.solutions-we-provide-section .solutions-we-provide-sec .image-solutions-we-provide img {
+   
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 15px;
+
+}    
+
+.solutions-we-provide-section .solutions-we-provide-sec .list-solutions-we-provide  { 
+    
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 87px 0 0 0;
+
+}
+
+.solutions-we-provide-section .solutions-we-provide-sec .list-solutions-we-provide ul { 
+    
+}
+
+
+.solutions-we-provide-section .solutions-we-provide-sec .list-solutions-we-provide ul li { 
+    
+}
+
+
+
+.solutions-we-provide-section .solutions-we-provide-sec .list-solutions-we-provide ul li  a{ 
+
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+}
+
+.solutions-we-provide-section .solutions-we-provide-sec .list-solutions-we-provide ul li p{ 
+
+    color: gray;
+    margin-bottom: 45px;
+    font-size: 13px;
+
+}
+
+
+
+.solutions-we-provide-section .solutions-we-provide-sec .list-solutions-we-provide ul li  a:hover{ 
+
+    color: #BD1A8D;
+    font-size: 15px;
+    text-decoration: none;
+}   
+
+.solutions-we-provide-section .btn-service-section {
+
+    text-align: center;
+    padding: 50px 0;
+
+    
+}
+
+.solutions-we-provide-section .btn-service-section button {
+
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 80px 5px;
+}
+
+
+.solutions-we-provide-section .btn-service-section button:hover { 
+
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+    
+
+}
+
+/* End Solutions We Provide Section */
+
+/* Start IT Service Management */
+
+.it-services-management-section {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    /*background-image: url(../img/Web1921.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 83%;*/
+    padding-bottom: 100px;
+
+}
+
+.it-services-management-section .it-services-management-title {
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.it-services-management-section .it-services-management-title a img {
+
+    width: 4%;
+
+}
+
+.it-services-management-section .it-services-management-title h1{
+
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 15px;
+
+}
+
+.it-services-management-section .it-services-management-title p{
+
+    font-size: 20px;
+    margin: 0;
+    
+}
+
+.it-services-management-section .it-services-management-title h1:before {
+    
+    content: "IT SERV";
+    text-decoration-line: underline;
+    text-decoration-style: line;
+    text-decoration-color: #B11A85;
+
+}
+
+.it-services-management-sec {
+    
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+
+}
+
+.container-it-services-management-section {
+
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-incident-management {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-incident-management img {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.it-services-management-section .it-services-management-sec .img-incident-management .content-incident-management h4{
+
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-indent: 20px;
+    font-weight: bold;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-incident-management .content-incident-management h4:hover{
+
+    color: #B11A85;    
+}
+
+.it-services-management-section .it-services-management-sec .img-incident-management .content-incident-management p{
+
+    text-indent: 15px;
+    font-size: 12px;
+    margin: 0;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-incident-management .content-incident-management {
+
+    box-shadow: 0px 2px 6px 1px #dddddd;    
+    padding: 25px 0;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-problem-management {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.it-services-management-section .it-services-management-sec .img-problem-management img {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.it-services-management-section .it-services-management-sec .img-problem-management .content-problem-management h4{
+
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-indent: 20px;
+    font-weight: bold;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-problem-management .content-problem-management h4:hover{
+
+    color: #B11A85;    
+}
+
+.it-services-management-section .it-services-management-sec .img-problem-management .content-problem-management p{
+
+    text-indent: 15px;
+    font-size: 12px;
+    margin: 0;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-problem-management .content-problem-management {
+
+    box-shadow: 0px 2px 6px 1px #dddddd;    
+    padding: 25px 0;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-project-management {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.it-services-management-section .it-services-management-sec .img-project-management img {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.it-services-management-section .it-services-management-sec .img-project-management .content-project-management h4{
+
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-indent: 20px;
+    font-weight: bold;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-project-management .content-project-management h4:hover{
+
+    color: #B11A85;    
+}
+
+.it-services-management-section .it-services-management-sec .img-project-management .content-project-management p{
+
+    text-indent: 15px;
+    font-size: 12px;
+    margin: 0;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-project-management .content-project-management {
+
+    box-shadow: 0px 2px 6px 1px #dddddd;    
+    padding: 25px 0;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-assest-management {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.it-services-management-section .it-services-management-sec .img-assest-management img {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.it-services-management-section .it-services-management-sec .img-assest-management .content-assest-management h4{
+
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-indent: 20px;
+    font-weight: bold;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-assest-management .content-assest-management h4:hover{
+
+    color: #B11A85;    
+}
+
+.it-services-management-section .it-services-management-sec .img-assest-management .content-assest-management p{
+
+    text-indent: 15px;
+    font-size: 12px;
+    margin: 0;
+
+}
+
+.it-services-management-section .it-services-management-sec .img-assest-management .content-assest-management {
+
+    box-shadow: 0px 2px 6px 1px #dddddd;    
+    padding: 25px 0;
+
+}
+
+/* End IT Service Management */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Contact Section */
+
+.contact-section {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  
+
+}
+
+.contact-section .img-contact-section {
+
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section .img-contact-section img  {
+
+    max-width: 100%;
+    opacity: 0.4;
+
+}
+.contact-section .img-contact-section .content-contact-section {
+
+    position:absolute;
+    top: 0;
+    text-align: center;
+}
+
+.contact-section .img-contact-section .content-contact-section h1 {
+
+    color: white;
+    
+}
+
+.contact-section .img-contact-section .content-contact-section p {
+
+    color: white;
+    font-size: 35px;
+    margin-top: 6.1vw;
+}
+
+ 
+.contact-section .img-contact-section .content-contact-section .btn-contact-section {
+
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section .img-contact-section .content-contact-section .btn-contact-section button.jo{
+
+    border-radius: 6px 0 0 6px;
+    padding: 10px 75px 5px;
+}
+
+.contact-section .img-contact-section .content-contact-section .btn-contact-section button.sa{
+
+    border-radius: 0 6px 6px 0;
+    padding: 10px 75px 5px;
+}
+
+
+.contact-section .img-contact-section .content-contact-section .btn-contact-section  button{
+
+    background: transparent;
+    color: white;
+    border: 1px solid #FFFFFF;
+    padding: 10px 75px 5px;
+}
+
+.contact-section .img-contact-section .content-contact-section .btn-contact-section  button:hover{
+
+    background:#7175777d;;
+    color: black;
+   
+}
+
+.contact-section .img-contact-section .content-contact-section button.btn-contact-us {
+
+    background: white;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 5px;
+    margin: 103px;
+}
+
+.contact-section .img-contact-section .content-contact-section a img { 
+
+        width: 8%;
+    
+}
+
+
+.contact-section .img-contact-section .content-contact-section button.btn-contact-us:hover {
+   
+    background:#7175777d;;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Footer */
+
+.container-footer {
+
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.top-footer {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: #F8F8F8;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+.top-footer .logo-footer {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+
+}
+
+.top-footer .logo-footer img {
+
+    width: 70%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+
+}
+
+
+
+
+
+
+/* Footer List Menu */
+
+.top-footer .list-company {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.top-footer .list-company h4{
+    
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.top-footer .list-company ul  {
+    
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.top-footer .list-company ul li {
+    line-height: 30px;
+}
+
+.top-footer .list-company ul li a {
+   
+    text-decoration: none;
+    color: black;
+}
+
+.top-footer .list-company ul li a:hover {
+    color: #BD1A8D;
+}
+
+
+
+
+
+.top-footer .list-support {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.top-footer .list-support h4{
+    
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.top-footer .list-support ul  {
+    
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.top-footer .list-support ul li {
+    line-height: 30px;
+}
+
+.top-footer .list-support ul li a {
+   
+    text-decoration: none;
+    color: black;
+}
+
+.top-footer .list-support ul li a:hover {
+    color: #BD1A8D;
+}
+
+
+
+.top-footer .list-Lorem-ipsum {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.top-footer .list-Lorem-ipsum h4{
+    
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.top-footer .list-Lorem-ipsum ul  {
+    
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.top-footer .list-Lorem-ipsum ul li {
+    line-height: 30px;
+}
+
+.top-footer .list-Lorem-ipsum ul li a {
+   
+    text-decoration: none;
+    color: black;
+}
+
+.top-footer .list-Lorem-ipsum ul li a:hover {
+    color: #BD1A8D;
+}
+
+
+.top-footer h4:hover{
+
+    color: #BD1A8D;
+}
+
+
+.top-footer .list-social-media {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.top-footer .list-social-media h4{
+    
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.top-footer .list-social-media ul  {
+    
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    list-style: none;
+    padding-inline-start: 0;
+    display: flex;
+}
+
+.top-footer .list-social-media ul li {
+    
+    padding-right: 14px;
+    font-size: 18px;
+}
+
+.top-footer .list-social-media ul li a {
+   
+    text-decoration: none;
+    color: #686868;
+
+}
+
+.top-footer .list-social-media ul li a:hover {
+    color: #BD1A8D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-footer {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+
+.bottom-footer span { 
+
+ 
+}
+
+.bottom-footer span a { 
+
+    text-decoration: none;
+    color: black;
+   
+}
+
+.bottom-footer span a:hover { 
+    color: #BD1A8D;
+    
+}
+
+.services-section .service-sec .img-business-it img
+{
+
+    cursor: zoom-in;
+    transition: 1s;
+}
+.services-section .service-sec .img-business-it img:hover
+{
+width: 90%;
+}
+.services-section .service-sec .img-cloud-services img
+{
+    cursor: zoom-in;
+    transition: 1s;
+}
+.services-section .service-sec .img-cloud-services img:hover
+{
+    width: 90%;
+}
+.services-section .service-sec .img-blockchain-services img
+{
+    
+    cursor: zoom-in;
+    transition: 1s;
+}
+.services-section .service-sec .img-blockchain-services img:hover
+{
+    width: 90%;
+}
+.services-section .service-sec .img-bigdata-services img:hover
+{
+    width: 90%;
+}
+.services-section .service-sec .img-bigdata-services img
+{
+    
+    cursor: zoom-in;
+    transition: 1s;
+}
+
+
+
+
+
+
+.it-services-management-section .it-services-management-sec .img-incident-management
+{
+    
+    cursor: zoom-in;
+    transition: 1s;
+}
+.it-services-management-section .it-services-management-sec .img-incident-management:hover
+{
+  width: 97%;
+
+}
+.it-services-management-section .it-services-management-sec .img-problem-management
+{
+    cursor: zoom-in;
+    transition: 1s;
+}
+.it-services-management-section .it-services-management-sec .img-problem-management:hover
+{width: 97%;
+}
+.it-services-management-section .it-services-management-sec .img-project-management
+{
+    cursor: zoom-in;
+    transition: 1s;
+}
+.it-services-management-section .it-services-management-sec .img-project-management:hover
+{
+    width: 97%;
+}
+.it-services-management-section .it-services-management-sec .img-assest-management
+{
+    cursor: zoom-in;
+    transition: 1s;
+}
+.it-services-management-section .it-services-management-sec .img-assest-management:hover
+{
+  
+    width: 97%;
+}
